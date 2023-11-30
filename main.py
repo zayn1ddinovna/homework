@@ -30,29 +30,3 @@ if a ==b:
     print(f"{a} sonlar yig'indisi {a}")
 else:
     print("False")
-
-2task
-Target = int(input("Son kiriting : "))
-Num = [2,3,4,5,6,6,7,7,7]
-
-def find_occurrences (num,Target):
-    occurrence_count = 0
-
-    for num in Num:
-        if num==Target:
-            occurrence_count+=1
-
-        return occurrence_count
-
-
-print(find_occurrences(Num,Target))
-
-num = int (input("Son kiriting : "))
-
-def find_square(num,square):
-    if num ** 0.5 == square:
-        return True
-    else:
-        return False
-
-print(find_square(num,square:5))
